@@ -14,8 +14,8 @@ if(navToggle){
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if (navClose){
-    navToggle.addEventListener('click', ()=>{
-        navMenu.classList.add('show-menu')
+    navClose.addEventListener('click', ()=>{
+        navMenu.classList.remove('show-menu')
     })
 }
 
